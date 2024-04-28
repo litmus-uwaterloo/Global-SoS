@@ -69,7 +69,7 @@ for z = 1:Nz
         % Beamforming for a single insonified pixel with sample linear interpolation
         if insonify_check == 1
             % Calculating the transmission time based on Eq. (3) in the associated paper
-            tx_time = pos_z(z)*cosd(ang_m)/sos_m + (pos_x(x)-wave_source)*sind(ang_t)/sos_t;
+            tx_time = pos_z(z)*cosd(ang_m)/sos_m + (pos_x(x)-wave_source)*sind(ang_m)/sos_m;
 
             % Calculation of receive time based on geometric principles
             rx_time = sqrt(pos_z(z)^2 + (pos_x(x) - pos_trans).^2)/sos_m;
