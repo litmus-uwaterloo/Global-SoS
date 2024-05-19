@@ -4,7 +4,7 @@ This repository contains simplified sample code for a pulse-echo global speed-of
 
 # Citation
 
-If you use any code or data from this repository, please cite the associated paper from _IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control_
+If you use any code or data from this repository, please cite the associated [paper](https://ieeexplore.ieee.org/document/10511251) from _IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control_
 > D. Xiao, P. De la Torre, A. C. H. Yu, "Real-Time Speed-of-Sound Estimation In Vivo via Steered Plane Wave Ultrasound", _IEEE Trans. Ultrason. Ferroelectr. Freq. Contr._
 
 # Code Sample and Data
