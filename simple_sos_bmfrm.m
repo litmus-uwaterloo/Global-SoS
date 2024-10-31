@@ -56,7 +56,7 @@ for z = 1:Nz
     for x = 1:Nx
         % Checking for whether the pixel is insonified by the plane wave
         insonify_check = 0;
-        if ang_m <= 0
+        if ang_m < 0
             if pos_x(x) < wave_source+pos_z(z)*tand(ang_m)
                 insonify_check = 1;
             end
